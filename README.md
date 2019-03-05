@@ -52,6 +52,7 @@ Para executar os serviços:
 3 - Iniciar o ActiveMQ conforme explicado anteriormente.
 
 4 - Executar os comandos na raiz do projeto email-sender: 
+
 	- mvn clean install
 	
 	- java -jar target\email-sender.jar
