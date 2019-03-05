@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Aviso de saldo devedor - Itaú</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<span th:text="'Bom dia Sr(a) ' + ${clientName} + ', estamos enviando este e-mail referente ao seu detito: ' + ${debitDescription} + ', no valor de R$ ' + ${debitValue} + ', por favor entre em contato com seu gerente para mais esclarecimentos.'" th:remove="tag"></span>
+	</body>
+</html>
