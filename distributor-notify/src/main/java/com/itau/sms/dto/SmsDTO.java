@@ -11,8 +11,7 @@ import lombok.Setter;
  */
 public class SmsDTO implements Serializable {
 
-	private static final long serialVersionUID = -2661918367591898735L;
-	@Getter @Setter private String clientName;
+	private static final long serialVersionUID = 5385765190594370569L;
 	@Getter @Setter private String clientPhoneNumber;
 	@Getter @Setter private String message;
 }

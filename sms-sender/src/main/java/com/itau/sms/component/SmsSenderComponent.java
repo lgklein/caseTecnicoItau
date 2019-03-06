@@ -24,6 +24,7 @@ public class SmsSenderComponent {
 	 */
 	public void sendSms(final SmsDTO smsDTO) {
 		startTwilio();
+		//TODO: Create template for SMS message
 		Message.creator(new PhoneNumber(smsDTO.getClientPhoneNumber()), new PhoneNumber("+55 11 97024-9215"), smsDTO.getMessage()).create();
 	}
 

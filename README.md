@@ -12,6 +12,8 @@ Gerais:
 
 5 - Utilizei o lombok (https://projectlombok.org/setup/eclipse e https://projectlombok.org/features/all) para fins de legibilidade de código.
 
+6 - Devido ao meu retorno de férias na quarta-feira de cinzas, não terei tempo habil de desenvolver o resto dos testes automatizados dos microserviços (testes de integrações), criação de template para a mensagem SMS (semelhante ao do email-sender para que o distributor so envio o template a ser usado e não a mensagem em si) nem o ultimo microserviço do escopo (impressão de cartas).
+
 
 distributor-notify:
 

@@ -82,8 +82,8 @@ public class DistributorServiceThread implements Callable<Boolean> {
 	 */
 	private SmsDTO getSmsDTO(final ClientsDebtsEntity clientDebit) {
 		final SmsDTO emailDTO = new SmsDTO();
-		emailDTO.setClientName(clientDebit.getClientName());
 		emailDTO.setClientPhoneNumber(clientDebit.getClientPhoneNumber());
+		//TODO: Create template for SMS message
 		emailDTO.setMessage(clientDebit.getDebitDescription());
 		return emailDTO;
 	}
